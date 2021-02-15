@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  typescript-node-template:
+    image: node:14-alpine
+    restart: always
+    expose:
+      - 80
+    working_dir: /home/node/app
+    volumes:
+      - ./:/home/node/app
+    command:
+      - /bin/sh
+      - -c
+      - |
+        yarn 
+        yarn prod
+    container_name: typescript-node-template
