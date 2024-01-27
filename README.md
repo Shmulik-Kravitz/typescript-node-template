@@ -32,3 +32,13 @@ In order to run the Node.js server please run:
 yarn start
 
 ```
+
+## How to upgrade?
+
+
+```bash
+yarn set version latest
+yarn upgrade-interactive
+yarn dlx @yarnpkg/sdks vscode
+
+```
