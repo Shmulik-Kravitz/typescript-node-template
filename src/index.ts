@@ -1,5 +1,5 @@
 import fastify from "fastify";
-import { FastifyRequest, FastifyReply } from "fastify";
+import type { FastifyReply, FastifyRequest } from "fastify";
 
 const start = async () => {
   try {
