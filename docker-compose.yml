@@ -2,7 +2,7 @@ version: "3"
 
 services:
   typescript-node-template:
-    image: 20-alpine3.19
+    image: node:20-alpine3.19
     restart: always
     expose:
       - 80
