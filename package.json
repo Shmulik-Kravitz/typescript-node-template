@@ -9,14 +9,14 @@
     "format": "yarn biome format --write ./src"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.7.3",
-    "@types/node": "^20.12.11",
-    "nodemon": "^3.1.0",
+    "@biomejs/biome": "1.9.4",
+    "@types/node": "^20.17.22",
+    "nodemon": "^3.1.9",
     "ts-node": "^10.9.2",
-    "typescript": "^5.4.5"
+    "typescript": "^5.8.2"
   },
   "dependencies": {
-    "fastify": "^4.27.0"
+    "fastify": "^5.2.1"
   },
   "husky": {
     "hooks": {
@@ -26,5 +26,5 @@
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
   },
-  "packageManager": "yarn@4.2.2"
+  "packageManager": "yarn@4.7.0"
 }
